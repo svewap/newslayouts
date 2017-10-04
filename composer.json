@@ -1,0 +1,22 @@
+{
+	"name": "svewap/newslayouts",
+	"type": "typo3-cms-extension",
+	"description": "Extends every EXT:news record with individual layout settings",
+	"homepage": "http://wappler.systems",
+	"license": [
+		"GPL-2.0+"
+	],
+	"require": {
+		"typo3/cms-core": "^7.6.13 || >=8.5.0 <9",
+		"georgringer/news": ">=3.2.0,<6.9.99"
+	},
+	"autoload": {
+		"psr-4": {
+			"WapplerSystems\\Newslayouts\\": "Classes"
+		}
+	},
+	"replace": {
+		"newslayouts": "self.version",
+		"typo3-ter/newslayouts": "self.version"
+	}
+}
