@@ -43,7 +43,7 @@ class News extends \GeorgRinger\News\Domain\Model\News
     /**
      * @return string
      */
-    public function getLayout(): string
+    public function getLayout()
     {
         return $this->layout;
     }
