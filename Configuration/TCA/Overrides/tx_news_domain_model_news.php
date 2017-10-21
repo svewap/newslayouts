@@ -11,11 +11,16 @@ $fields = [
             'type' => 'select',
             'renderType' => 'selectSingle',
             'items' => [
-                ['Layout 1', 'layout1', 'EXT:newslayouts/Resources/Public/Icons/tx_styleguide.svg'],
-                ['Layout 2', 'layout2', 'EXT:newslayouts/Resources/Public/Icons/tx_styleguide.svg'],
+                ['LLL:EXT:frontend/Resources/Private/Language/locallang_tca.xlf:pages.backend_layout.default', ''],
             ],
             'minitems' => 0,
-            'maxitems' => 1
+            'maxitems' => 1,
+            'fieldWizard' => [
+                'selectIcons' => [
+                    'disabled' => false,
+                    'renderType' => 'selectBigIcons'
+                ],
+            ],
         ],
     ],
 ];
