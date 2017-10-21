@@ -12,3 +12,5 @@ $pageTsConfig = \TYPO3\CMS\Core\Utility\GeneralUtility::getUrl(\TYPO3\CMS\Core\U
 /* add backend css */
 $GLOBALS['TBE_STYLES']['skins']['backend']['stylesheetDirectories']['newslayouts'] = 'EXT:newslayouts/Resources/Public/CSS/Backend/';
 
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'News article layouts');
