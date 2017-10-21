@@ -11,18 +11,18 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Layouts for news records',
+    'title' => 'Layouts for news articles',
     'description' => '',
     'category' => 'plugin',
     'author' => 'Sven Wappler',
-    'author_email' => 'info@wappler.systems',
+    'author_email' => 'typo3YYYY@wappler.systems',
     'author_company' => 'WapplerSystems',
-    'state' => 'stable',
+    'state' => 'beta',
     'internal' => '',
     'uploadfolder' => '0',
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '1.0.0',
+    'version' => '0.1.0',
     'constraints' => [
         'depends' => [
             'typo3' => '7.6.0-8.9.99',
