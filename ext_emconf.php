@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Layouts for news articles',
-    'description' => '',
+    'description' => 'Extends EXT:news records with individual layout settings',
     'category' => 'plugin',
     'author' => 'Sven Wappler',
     'author_email' => 'typo3YYYY@wappler.systems',
